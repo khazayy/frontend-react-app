@@ -1,0 +1,376 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+}
+.a-in-heder{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    transition: all 0.3s;
+    
+
+}
+.li-in-heder{
+    display: inline;
+    padding-right: 20px;
+    
+}
+.a-in-heder:hover{
+    border-bottom: 1px solid snow;
+    padding-bottom: 7px;
+}
+.logo-in-heder{
+    width: 4.5%;
+    height: 8%;
+   position: absolute;
+   top:5px;
+   left:5px;
+}
+.baner{
+
+    width: 100%;
+    height:650px;
+    background-color: #0057cd;
+   
+}
+.abner-in-div{
+    width:100% ;
+    height: auto;
+    margin-top: 1%;
+    position: relative;
+}
+.heder{
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: rgb(88, 88, 169);
+    padding: 30px;
+}
+.teleport-in-product{
+    position: absolute;
+   bottom: 200px;
+    right: 70px;
+    padding: 10px;
+    height: 45px;
+    border-radius: 5px;
+    font-size: 17px;
+   background-color:transparent;
+   color: aliceblue;
+   border: 1px solid snow;
+}
+.poroducts-main{
+   text-align: center;
+    display: flex;
+    flex-direction: row-reverse;
+     padding-top: 20px;
+     margin-top: 60px;
+     border-top: 2px solid black;
+    
+     
+}
+.product{
+    position: relative;
+    width: 280px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 1px solid #0057cd;
+    box-shadow: 0px 0px 10px #2200ff;
+    background-color: snow;
+    margin-left: 30px;
+
+  
+    
+}
+.image-product{
+    width: 99%;
+    height: 65%;
+    margin: auto;
+}
+
+.show-product{
+    position: absolute;
+    bottom: 2px;
+    width: 70%;
+    height: 35px;
+    border-radius: 5px;
+    font-size: 17px;
+    background-color: #0057cd;
+    color: snow;
+    left: 15%;
+}
+.product-price{
+    color: red;
+    margin-left: 10px;
+    position: absolute;
+    left: 2%;
+    bottom:10% ;
+}
+
+.ppp{
+    margin-right: 20px;
+    margin-top: 20px;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    
+}
+.search-input{
+   width: 500px;
+   height: 40px;
+   border-radius: 7px;
+    text-align: right;
+    padding-right: 10px;
+    font-size: 17px;
+    margin-top: 10px;
+    border: none;
+    background-color: #453891;
+   
+}
+.input-searh-main{
+    text-align: right;
+    margin-right: 2%;
+ 
+}
+.basketIcon{
+    font-size: 130%;
+    
+}
+
+.imag-main{
+    margin-top: 50px;
+    width: 100%;
+    
+    
+   
+}
+.img-title-2{
+    width: 48%;
+    margin: 1%;
+   border-radius: 10px;
+   
+}
+
+@media screen and ( max-width:1200px ){
+    .baner{
+
+        height:500px;
+        background-color: #0057cd;
+       
+    }
+
+    .poroducts-main{
+        height: 380px;
+    }
+    .image-product{
+        height: 50%;
+    }
+    .product{
+        width: 300px;
+        font-size: 13px;
+        margin-left: 10px;
+    }
+    .show-product{
+       font-size: 15px;
+       height: auto;
+       padding: 5px;
+    }
+    .heder{
+        padding: 12px;
+        font-size: 17px;
+    }
+}
+@media screen and ( max-width:900px ){
+    .baner{
+
+        height:440px;
+        background-color: #0057cd;
+       
+    }
+
+    .poroducts-main{
+        height: 400px;
+    }
+
+    .product{
+        width: 300px;
+        font-size: 15px;
+        margin-left: 10px;
+    }
+    .show-product{
+       font-size: 13px;
+    }
+    .heder{
+        padding: 12px;
+        font-size: 17px;
+    }
+}
+@media screen and ( max-width:870px ){
+   
+
+    .poroducts-main{
+        height: 380px;
+    }
+    .image-product{
+        height: 50%;
+    }
+    .product{
+        width: 300px;
+        font-size: 13px;
+        margin-left: 10px;
+    }
+    .show-product{
+       font-size: 13px;
+       height: auto;
+       padding: 5px;
+    }
+    .heder{
+        padding: 12px;
+        font-size: 17px;
+    }
+}
+@media screen and ( max-width:779px ){
+    .teleport-in-product{
+        font-size: 14px;
+    }
+
+    .poroducts-main{
+        height: 380px;
+    }
+    .image-product{
+        height: 40%;
+    }
+    .product{
+        width: 290px;
+        font-size: 13px;
+        margin-left: 10px;
+    }
+    .show-product{
+       font-size: 12px;
+       height: auto;
+       width: 80%;
+       padding: 2px;
+       margin: auto;
+    }
+    .heder{
+        padding: 9px;
+        font-size: 14px;
+    }
+}
+@media screen and ( max-width:779px ){
+   
+.search-input{
+    width: 400px;
+    font-size: 17px;
+    padding: 10px;
+}
+    .poroducts-main{
+        height: 350px;
+    }
+    .image-product{
+        height: 40%;
+    }
+    .product{
+        
+        font-size: 12px;
+        margin-left: 10px;
+    }
+    .show-product{
+       font-size: 10px;
+       height: auto;
+       width: 80%;
+       text-align: center;
+       margin-right: 10%;
+    }
+    .heder{
+        padding:9px;
+        font-size: 14px;
+    }
+}
+@media screen and ( max-width:600px ){
+    .teleport-in-product{
+        font-size: 13px;
+        bottom: 100px;
+        right: 40px;
+        color: black;
+        height: auto;
+    }
+    .search-input{
+        width: 330px;
+        font-size: 14px;
+        padding: 8px;
+    }
+    .baner{
+        height: 380%;
+    }
+        .poroducts-main{
+            height: auto;
+           flex-wrap: wrap;
+            justify-content: center;
+        }
+        .image-product{
+            height: 40%;
+        }
+        .product{
+            width: 40%;
+            font-size: 12px;
+            margin-right: 20px;
+        }
+        .show-product{
+           font-size: 10px;
+           height: auto;
+           width: 80%;
+           text-align: center;
+           margin-right: 10%;
+        }
+        .heder{
+            padding:9px;
+            font-size: 14px;
+        }.product-price{
+        bottom: 30%;
+        }
+    }
+
+    
+@media screen and ( max-width:480px ){
+    .teleport-in-product{
+        font-size: 13px;
+        bottom: 20%;
+        right: 10%;
+        color: black;
+        height: auto;
+        padding: 4px;
+    }
+    .search-input{
+        width: 150px;
+        font-size: 13px;
+        padding: 8px;
+    }
+    .baner{
+        height: 330%;
+    }
+        .poroducts-main{
+            height: auto;
+           flex-wrap: wrap;
+            justify-content: center;
+        }
+        .image-product{
+            height: 40%;
+        }
+        .product{
+            width: 40%;
+            font-size: 12px;
+            margin-right: 20px;
+        }
+        .show-product{
+           font-size: 10px;
+           height: auto;
+           width: 80%;
+           text-align: center;
+           margin-right: 10%;
+        }
+        .heder{
+            padding:9px;
+            font-size: 14px;
+        }
+    }
