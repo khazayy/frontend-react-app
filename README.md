@@ -1,3 +1,6 @@
+live demo:
+https://sample-ract.liara.run/
+
 # Frontend React E-commerce App
 
 This project is a sample e-commerce web application built with React as a first portfolio project.
